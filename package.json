@@ -1,0 +1,33 @@
+{
+  "name": "nytimes-react",
+  "version": "1.0.0",
+  "description": "NYTimes React",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "react-router": "^4.2.0",
+    "request": "^2.85.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongm12/nytimes-react.git"
+  },
+  "author": "Miles Kong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kongm12/nytimes-react/issues"
+  },
+  "homepage": "https://github.com/kongm12/nytimes-react#readme"
+}
