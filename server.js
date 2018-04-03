@@ -20,11 +20,11 @@ var db = process.env.MONGODB_URI || "mongodb://localhost/nytreact";
 
 // Connect mongoose to our database
 mongoose.connect(db, function(error) {
-  // Log any errors connecting with mongoose
+  // Log errors connecting with mongoose
   if (error) {
     console.error(error);
   }
-  // Or log a success message
+  // Or log success message
   else {
     console.log("mongoose connection is successful");
   }
